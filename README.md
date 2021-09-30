@@ -1,7 +1,7 @@
 ## Project Laravel 
 
 ## Installer
-How to use my Project you need to install xampp, composer, Nodejs 14.18 LTS
+How to use my Project you need to install xampp, composer 2.1.18, Nodejs 14.18 LTS
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
@@ -17,3 +17,5 @@ How to use my Project you need to install xampp, composer, Nodejs 14.18 LTS
 
 Only a Sample Project not done yet
 
+## File location
+/home - Input and show the result.
