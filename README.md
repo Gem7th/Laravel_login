@@ -38,6 +38,7 @@ $ sudo mv composer.phar /usr/local/bin/composer
 $ git clone https://github.com/Gem7th/Laravel_login.git
 $ cd Laravel_login
 $ composer install
+$ php artisan key:generate
 $ php artisan migrate
 $ php artisan serve
 </pre>
