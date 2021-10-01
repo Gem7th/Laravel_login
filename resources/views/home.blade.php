@@ -1,9 +1,8 @@
 <html> 
     <head>
-        <title>yawa</title>
+        <title>Home</title>
     </head>
     <body>
-        <h5>omg</h5>
         <center>
             <form action="{{url('/send')}}" method="POST">
             @csrf
