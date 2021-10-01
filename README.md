@@ -15,6 +15,10 @@ How to use my Project you need to install "XAMPP, composer 2.1.18"
 
 ##### Linux
 
+Exporting PATH in bash before installing just ignore the directory not found for now. 
+
+> $ echo "PATH=$PATH:/opt/lampp/bin/php:~/.config/composer/vendor/bin" >> .bashrc
+
 > Installing XAMPP
 <pre>
 $ wget https://www.apachefriends.org/xampp-files/8.0.11/xampp-linux-x64-8.0.11-0-installer.run
@@ -26,7 +30,6 @@ $ chmod +x xampp-linux-x64-8.0.11-0-installer.run
 $ sudo curl -s https://getcomposer.org/installer | /opt/lampp/bin/php
 $ sudo ln -s /opt/lampp/bin/php /usr/local/bin/php
 $ sudo mv composer.phar /usr/local/bin/composer
-$ echo "PATH=$PATH:/opt/lampp/bin/php:~/.config/composer/vendor/bin" >> .bashrc
 </pre>
 
 > Running
