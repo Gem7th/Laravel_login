@@ -27,13 +27,17 @@ $ sudo curl -s https://getcomposer.org/installer | /opt/lampp/bin/php
 $ sudo ln -s /opt/lampp/bin/php /usr/local/bin/php
 $ sudo mv composer.phar /usr/local/bin/composer
 $ echo "PATH=$PATH:/opt/lampp/bin/php:~/.config/composer/vendor/bin" >> .bashrc
+</pre>
+
+> Running
+
+<pre>
 $ git clone https://github.com/Gem7th/Laravel_login.git
 $ cd Laravel_login
 $ composer install
 $ php artisan migrate
 $ php artisan serve
 </pre>
-
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
