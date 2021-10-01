@@ -15,9 +15,9 @@ How to use my Project you need to install "XAMPP, composer 2.1.18"
 
 ##### Linux
 
-Exporting PATH in bash before installing just ignore the directory not found for now. 
+> Exporting PATH in bash before installing just ignore the directory not found for now. 
 
-> $ echo "PATH=$PATH:/opt/lampp/bin/php:~/.config/composer/vendor/bin" >> .bashrc
+<pre> $ echo "PATH=$PATH:/opt/lampp/bin/php:~/.config/composer/vendor/bin" >> .bashrc </pre>
 
 > Installing XAMPP
 <pre>
