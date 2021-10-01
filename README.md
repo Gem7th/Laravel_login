@@ -1,19 +1,19 @@
 ## Project Laravel 
 
-### About the Project
+## About the Project
 
 Only a Sample Project not done yet
 
-### File location
+## File location
 /home - Input and show the result.
 
-### How to Install
+## How to Install
 
 How to use my Project you need to install "XAMPP, composer 2.1.18"
 
-##### Windows
+#### Windows
 
-##### Linux
+#### Linux
 
 > Exporting PATH in bash before installing just ignore the directory not found for now. 
 
