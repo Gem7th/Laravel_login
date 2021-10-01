@@ -17,7 +17,13 @@ How to use my Project you need to install "XAMPP, composer 2.1.18"
 
 > Exporting PATH in bash before installing just ignore the directory not found for now. 
 
-<pre> $ echo "PATH=$PATH:/opt/lampp/bin/php:~/.config/composer/vendor/bin" >> .bashrc </pre>
+<pre> $ echo "PATH=$PATH:/opt/lampp/bin/php:~/.config/composer/vendor/bin:~/Downloads/node-v14.18.0-linux-x64/bin" >> .bashrc </pre>
+
+> Installing Node & NPM
+<pre>
+$ cd ~/Downloads
+$ wget https://nodejs.org/dist/v14.18.0/node-v14.18.0-linux-x64.tar.xz 
+</pre>
 
 > Installing XAMPP
 <pre>
@@ -39,6 +45,8 @@ $ git clone https://github.com/Gem7th/Laravel_login.git
 $ cd Laravel_login
 $ composer install
 $ php artisan key:generate
+$ php artisan jetstream:install livewire
+$ npm install && npm run dev
 $ php artisan migrate
 $ php artisan serve
 </pre>
