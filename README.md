@@ -12,6 +12,13 @@ Only a Sample Project not done yet
 How to use my Project you need to install "XAMPP, composer 2.1.18"
 
 #### Windows
+Download this application and install it.
+* Xampp
+* composer 2.1.18
+* Nodejs 14.176
+* git 2.33.0.2
+
+
 
 #### Linux
 
